@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 25.1.0  # Use a versão mais recente disponível
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v6.0.0  # Use a versão mais recente disponível
+      - id: isort
+        language_version: python3
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.1.0  # Use a versão mais recente disponível
+    hooks:
+      - id: flake8
+        language_version: python3
